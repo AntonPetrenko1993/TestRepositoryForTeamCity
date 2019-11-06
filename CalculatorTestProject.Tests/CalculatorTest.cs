@@ -20,7 +20,7 @@ namespace CalculatorTestProject.Tests
         public void Sum_2_Plus_2_returned_4()
         {
             int expectedResult = 4;
-            int actualResult = calculator.Sum(1, 2);
+            int actualResult = calculator.Sum(2, 2);
 
             Assert.AreEqual(actualResult, expectedResult);
         }
