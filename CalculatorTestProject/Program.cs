@@ -7,7 +7,7 @@ namespace CalculatorTestProject
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
-            Console.WriteLine(calculator.Sum(4,2));
+            Console.WriteLine(calculator.Sum(8,2));
         }
     }
 }
